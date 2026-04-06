@@ -13,8 +13,6 @@ setup()
 const withNextIntl = createNextIntlPlugin('./app/i18n/request.ts')
 
 const nextConfig = {
-  // 👇 就是加了这一行！强制让 Next.js 运行在 /moemail 路径下
-  basePath: '/moemail', 
   
   images: {
     remotePatterns: [
